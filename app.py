@@ -12,7 +12,7 @@ app = Flask(__name__)
 CORS(app)
 
 # Ollama configuration
-OLLAMA_BASE_URL = "http://10.100.20.76:11434"
+OLLAMA_BASE_URL = "http://00.000.00.00:"
 MODEL = "mistral:7b"
 
 # Supported Indian languages
